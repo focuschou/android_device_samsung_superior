@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2012 The CyanogenMod Project
+# Copyright (C) 2016 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -57,9 +57,6 @@ TARGET_USERIMAGES_USE_EXT4 := true
 # Egl
 BOARD_EGL_CFG := device/samsung/superior/configs/egl.cfg
 USE_OPENGL_RENDERER := true
-
-# Force the screenshot path to CPU consumer
-COMMON_GLOBAL_CFLAGS += -DFORCE_SCREENSHOT_CPU_PATH
 
 # Camera
 BOARD_CAMERA_HAVE_ISO := true

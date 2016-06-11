@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2012 The CyanogenMod Project
+# Copyright (C) 2016 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -81,12 +81,7 @@ PRODUCT_PACKAGES += \
 
 # HAL
 PRODUCT_PACKAGES += \
-    camera.piranha \
-    audio.primary.piranha \
-    nfc.piranha \
-    hwcomposer.piranha \
-    lights.piranha \
-    power.piranha
+    nfc.piranha
 
 # NFC
 PRODUCT_PACKAGES += \
