@@ -111,35 +111,10 @@ PRODUCT_DEX_PREOPT_DEFAULT_FLAGS := --compiler-filter=everything
 
 # Selinux
 BOARD_SEPOLICY_DIRS += \
-    device/samsung/superior/selinux
-
-BOARD_SEPOLICY_UNION += \
-    file_contexts \
-    file.te \
-    app.te \
-    device.te \
-    domain.te \
-    drmserver.te \
-    fRom.te \
-    geomagneticd.te \
-    gpsd.te \
-    orientationd.te \
-    pvrsrvinit.te \
-    init.te \
-    init_shell.te \
-    mediaserver.te \
-    nfc.te \
-    rild.te \
-    smc_pa.te \
-    system.te \
-    sysinit.te \
-    ueventd.te \
-    vold.te \
-    wpa_supplicant.te
+    device/samsung/superior/sepolicy
 
 # Override healthd HAL
 BOARD_HAL_STATIC_LIBRARIES := libhealthd.piranha
-
 
 # Recovery
 TARGET_RECOVERY_PIXEL_FORMAT := "BGRA_8888"
