@@ -109,6 +109,9 @@ WITH_DEXPREOPT_PIC := true
 WITH_DEXPREOPT_COMP := false
 PRODUCT_DEX_PREOPT_DEFAULT_FLAGS := --compiler-filter=everything
 
+# Liblights
+TARGET_PROVIDES_LIBLIGHT := true
+
 # Selinux
 BOARD_SEPOLICY_DIRS += \
     device/samsung/superior/sepolicy
